@@ -1,4 +1,4 @@
-# ExercisesXP
+# DI Bootcamp - Week 4 - Day 2 - Exercises XP
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.5.
 

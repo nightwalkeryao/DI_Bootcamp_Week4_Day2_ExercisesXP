@@ -1,0 +1,9 @@
+<h3>Available products</h3>
+<table>
+    <th>Product Name</th>
+    <th>Price</th>
+    <tr *ngFor="let p of products">
+        <td bold [highlight]="p.price" [ngClass]="{'high-price': p.price > 300, 'low-price': p.price <= 300}">{{ p.name }}</td>
+        <td class="price">{{ p.price|currency:'$' }}</td>
+    </tr>
+</table>
